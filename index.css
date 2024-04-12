@@ -77,3 +77,152 @@ border-radius: 5px;
 
 ;
 }
+
+.portfolioGrid{
+    margin-top: 4rem;
+    width: 90%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    margin-inline: auto;
+    background-color: green;
+}
+
+.portfolioCardWebsite, .portfolioCardMobileApp{
+
+    width: 24rem;
+    height: 24rem;
+    background-color: red;
+
+
+}
+.portfolioCardMobileApp{
+    display: flex;
+   gap: .5rem;
+}
+.webImage{
+    width: 100%;
+    height: 60%;
+}
+
+.mobileImage{
+    height: 100%;
+    width: 45%;
+}
+#contact {
+   background-color: rgb(1,77,78,.95);
+   
+
+}
+
+.input{
+    width: 100%;
+    height: 2rem;
+}
+.textarea{
+    width: 100%;
+    min-height: 10rem;
+    resize: vertical;
+
+}
+.input, textarea {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    outline: none;
+    border-style: none;
+    padding: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+.input:focus, textarea:focus {
+    background-color: rgba(255, 255, 255, 0.45);
+}
+
+#form{
+    border: 8px solid rgba(255, 255, 255, 0.05);
+    display: grid;
+    gap: 1rem;
+    box-sizing: border-box;
+    margin-top: 1rem;
+   margin: 0px;
+   padding: 1rem;
+    
+
+}
+.formContainer{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 80%;
+    margin-inline: auto;
+    gap: 2rem;
+    padding: 4rem;
+}
+.contactInfo{
+    border: 8px solid rgba(255, 255, 255, 0.05);
+    height: 100%;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+h1, input, textarea {
+    margin: 0px;
+}
+#submit {
+    width: 10rem;
+    margin-inline: auto;
+    padding: .5rem;
+    font-size: 1rem;
+    border-style: none;
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.footer{
+    height: 10rem;
+    background-color: teal;
+    box-shadow: 1px 1px  30px teal;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.iconContainer{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.iconGrid{
+    display: grid;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+
+.socialMediaGrid {
+    display: flex;
+    gap: 1rem;
+    margin-top:2rem ;
+    
+}
+
+.socialIconContainer{
+    padding: .7rem;
+    border-radius: 50%;
+    border: 8px solid rgba(255, 255, 255, 0.2);
+  
+}
+
+.soclialIcon{
+   width: 25px;
+   height: 25px;
+   cursor: pointer;
+}

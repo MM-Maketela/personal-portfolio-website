@@ -8,98 +8,216 @@
     <link rel="stylesheet" type="text/css" href="index.css" />
   </head>
   <body>
-
-
     <header>
+      <nav>
+        <ul class="linkContainer">
+          <li class="linkElement">
+            <a>HOME</a>
+          </li>
+          <li class="linkElement">
+            <a>SKILLS</a>
+          </li>
 
-        <nav>
-            <ul  class="linkContainer">
-                <li class="linkElement">
-                    <a>HOME</a>
-                </li>
-                <li  class="linkElement">
-                    <a>SKILLS</a>
-                </li>
-    
-                <li class="linkElement">
-                    <a>PORTFOLIO</a>
-                </li>
-    
-                <li class="linkElement">
-                    <a>CONTACT</a>
-                </li>
-            </ul>
-        </nav>
+          <li class="linkElement">
+            <a>PORTFOLIO</a>
+          </li>
 
+          <li class="linkElement">
+            <a>CONTACT</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <main>
+      <div id="hero"></div>
 
-        <div id="hero">
-
+     <div style="background-color: white;">
+      <div id="skills">
+        <div class="subject">
+          <h1>SKILLS</h1>
+          <p>Loren ipsun dolor sit anet, consectetur adipisci elit</p>
         </div>
 
-        <div id="skills">
+        <div class="skillsGrid">
+          <div class="skillCard">
+            <h2>Name</h2>
+            <p>text</p>
+          </div>
 
-            <div class="subject">
+          <div class="skillCard">
+            <h2>Name</h2>
+            <p>text</p>
+          </div>
 
-                <h1>SKILLS</h1>
-                <p>Loren ipsun dolor sit anet, consectetur adipisci elit</p>
+          <div class="skillCard">
+            <h2>Name</h2>
+            <p>text</p>
+          </div>
 
-                <div class="skillsGrid">
-                        <div class="skillCard">
+          <div class="skillCard">
+            <h2>Name</h2>
+            <p>text</p>
+          </div>
+          <div class="skillCard">
+            <h2>Name</h2>
+            <p>text</p>
+          </div>
+          <div class="skillCard">
+            <h2>Name</h2>
+            <p>text</p>
+          </div>
+        </div>
+      </div>
 
-                            <h2>Name</h2>   
-                            <p>
-                                text
-                            </p>
-                            
-                        </div>
-
-                        <div class="skillCard">
-
-                            <h2>Name</h2>   
-                            <p>
-                                text
-                            </p>
-                            
-                        </div>
-
-
-                        <div class="skillCard">
-
-                            <h2>Name</h2>   
-                            <p>
-                                text
-                            </p>
-                            
-                        </div>
-
-                        <div class="skillCard">
-
-                            <h2>Name</h2>   
-                            <p>
-                                text
-                            </p>
-                            
-                        </div>
-                </div>
-
-            </div>
-
+      <div id="Portfolio">
+        <div class="subject">
+          <h1>PORTFOLIO</h1>
+          <p>Loren ipsun dolor sit anet, consectetur adipisci elit</p>
         </div>
 
-        <div  id="Portfolio">
+        <div class="portfolioGrid">
+          <div class="portfolioCardWebsite">
+            <img
+              src="./assets/images/amalgamation.png"
+              alt="portfolio image"
+              class="webImage"
+            />
+          </div>
+          <div class="portfolioCardWebsite">
+            <img
+              src="./assets/images/amalgamation.png"
+              alt="portfolio image"
+              class="webImage"
+            />
+          </div>
+          <div class="portfolioCardWebsite">
+            <img
+              src="./assets/images/amalgamation.png"
+              alt="portfolio image"
+              class="webImage"
+            />
+          </div>
 
+          <div class="portfolioCardMobileApp">
+            <img src="./assets/images/cinema.jpg" alt="" class="mobileImage">
+
+            <span>
+              teste
+            </span>
+          </div>
+          <div class="portfolioCardMobileApp">
+            <img src="./assets/images/cinema.jpg" alt="" class="mobileImage">
+          </div>
+          <div class="portfolioCardMobileApp">
+            <img src="./assets/images/cinema.jpg" alt="" class="mobileImage">
+          </div>
+        </div>
+      </div>
+     </div>
+
+     <div name="divider"  style="height: 6rem; background-color: white;"></div>
+        
         </div>
 
-        <div  id="contact">
+      <div id="contact">
+
+
+        <div style="background-image: url(./assets/images/Green-Nature-HD-Background.jpg); height: 100vh; width: 100vw; position: fixed; top: 0px; left: 0px;z-index: -1;">
 
         </div>
         
+
+        <div  class="formContainer">
+   
+            
+            <form  name="form" id="form">
+              <h1 style="color: white; font-size: 1.5rem;">SEND MAFA A MESSAGE</h1>
+              <input  class="input"   placeholder="Name & Surname"  />
+              <input  class="input"   placeholder="Your Email"  />
+              <input  class="input"   placeholder="Subject"  />
+              <textarea    class="textarea"  placeholder="Details ">
+  
+              </textarea>
+
+              <button type="submit" id="submit">
+                SUBMIT
+              </button>
+  
+  
+            </form>
+    
+          <div class="contactInfo">
+
+            <h1 style="color: white; font-size: 1.5rem;">
+              GET IN TOUCH
+            </h1>
+
+            <p style="text-align: start;  font-size: 1.2rem; width: 80%; margin-inline: start; margin-top: 2rem; color: rgba(255, 255, 255, 0.6);">
+              Thank you for considering reaching out.
+               Should you wish to contact me, please
+                utilize the provided contact form or conveniently
+                 connect with me via our social media platforms by 
+                 clicking on the respective logos. I appreciate your
+                  interest and eagerly anticipate the opportunity
+                   to engage with you.
+            </p>
+
+
+            
+            <div class="iconGrid">
+              <div class="iconContainer">
+                <img  src="./assets/other/map-pin.svg"  style="width: 25px; height: 25px;"/>
+                <p>Intongomane st, Greenville Fisanti, Cape Town 7550</p>
+              </div>
+  
+              <div class="iconContainer">
+                <img  src="./assets/other/phone-call.svg"  style="width: 25px; height: 25px;"/>
+                <p>(+27) 73 187 4276</p>
+              </div>
+  
+              <div class="iconContainer">
+                <img  src="./assets/other/mail.svg"  style="width: 25px; height: 25px;"/>
+                <p>maketelamafa2@gmail.com</p>
+              </div>
+            </div>
+
+
+            <div class="socialMediaGrid">
+
+              
+              <div class="socialIconContainer">
+                <img src="./assets/other/facebook.svg"   class="soclialIcon"/>
+              </div>
+
+              <div class="socialIconContainer">
+                <img src="./assets/other/linkedin.svg"   class="soclialIcon"/>
+              </div>
+              <div class="socialIconContainer">
+                <img src="./assets/other/twitter.svg"   class="soclialIcon"/>
+              </div>
+
+              <div class="socialIconContainer">
+                <img src="./assets/other/whatsapp.svg"   class="soclialIcon"/>
+              </div>
+
+            </div>
+
+            
+            
+
+          </div>
+        </div>
+        
+      </div>
     </main>
-    <footer>
+    <footer class="footer">
+      <p style="color: white;">
+        © Copyright Mafa Maketela, All Rights Reserved.
+      </p>
+      <p style="color: white;">2024</p>
 
     </footer>
+
   </body>
 </html>
