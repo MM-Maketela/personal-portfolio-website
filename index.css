@@ -32,7 +32,30 @@ a{
     background-position: center;
     height: 100vh;
 }
-
+.aboutMafa{
+    padding: 2rem;
+    text-align: start;
+    top: 10rem;
+    position: absolute;
+    width: 50%;
+    right: 5%;
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+#typed-text{
+    
+  
+}
+#proText{
+    display: flex;
+    gap: 1rem;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 2rem;
+    position: absolute;
+    top: 16%;
+    
+    right: 17%;
+}
 #skills{
     min-height: 100vh;
 }

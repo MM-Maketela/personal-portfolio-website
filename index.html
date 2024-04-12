@@ -6,6 +6,8 @@
 
     <title>Maketela Mafa's Portfolio</title>
     <link rel="stylesheet" type="text/css" href="index.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
   </head>
   <body>
     <header>
@@ -30,7 +32,34 @@
     </header>
 
     <main>
-      <div id="hero"></div>
+      <div id="hero">
+        <p class="aboutMafa">
+          
+          Growing up in Matatiele, Eastern Cape, my passion for technology led me to pursue a Computer Science degree at the University of the Western Cape.<br/><br/>
+           Despite limited resources, I immersed myself in web development, mastering languages like JavaScript and React. Now, armed with practical experience and a strong foundation, I'm driven to make meaningful contributions to the tech industry.
+           <br/><br/> As a dedicated web developer, I'm poised to tackle challenges with innovation and enthusiasm.
+        </p>
+
+        
+        <div  id="proText">
+            Professional <span id="typed-text"></span>
+        </div>
+
+
+        <script>
+          var options = {
+            strings: ['Web Developer ^1000'],
+            typeSpeed: 50, // typing speed in milliseconds
+            loop: true // loop the animation
+            ,
+            smartBackspace: false,
+            cursorChar: '|'
+          };
+        
+          var typed = new Typed('#typed-text', options);
+        </script>
+
+      </div>
 
      <div style="background-color: white;">
       <div id="skills">
