@@ -111,33 +111,42 @@ border-radius: 5px;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
     margin-inline: auto;
-    background-color: green;
+    
 }
 
 .portfolioCardWebsite, .portfolioCardMobileApp{
 
     width: 24rem;
     height: 24rem;
-    background-color: red;
+    text-align: center;
+
+}
+
+.portfolioCardWebsiteTextContainer, .portfolioCardMobileAppTextContainer{
 
 
+}
+.portfolioCardMobileAppTextContainer{
+    height: 24rem;
 }
 .portfolioCardMobileApp{
-    display: flex;
-   gap: .5rem;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
 }
+
 .webImage{
     width: 100%;
     height: 60%;
 }
 
 .mobileImage{
-    height: 100%;
-    width: 45%;
+    height: 24rem;
+    width: 100%;
 }
 #contact {
    background-color: rgb(1,77,78,.95);
-   
 
 }
 
@@ -248,4 +257,50 @@ h1, input, textarea {
    width: 25px;
    height: 25px;
    cursor: pointer;
+}
+
+.portfolioCardMobileAppTextContainer{
+   font-size: 1rem;
+   position: relative;
+   box-sizing: border-box;
+   border: 4px solid rgba(128, 128, 128, 0.2);
+ 
+}
+
+.productionIcons{
+    display: flex;
+    justify-content: space-around;
+    padding: .1rem;
+    gap: .2rem;
+    position: absolute;
+    bottom: .5rem;
+    left: 0px;
+    right: 0px;
+    
+
+    
+
+}
+.productionIcons > div{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid teal;
+    padding: .2rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius:50%;
+   
+}
+
+.wrapper{
+    display: grid;
+    box-sizing: border-box;
+}
+.mobileInnerText{
+
+ background-color: red;
+ display: flex;
+ flex-direction: column;
+ 
 }
