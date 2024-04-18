@@ -159,6 +159,7 @@ p {
 }
 #contact {
   background-color: rgb(1, 77, 78, 0.95);
+  
 }
 
 .input {
@@ -172,17 +173,25 @@ p {
 }
 .input,
 textarea {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.05);
   color: white;
   outline: none;
   border-style: none;
   padding: 5px;
   font-size: 1rem;
   box-sizing: border-box;
-}
+    /* to remove */
+  /* From https://css.glass */
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 4px solid transparent;
+
+  
+  }
 .input:focus,
 textarea:focus {
-  background-color: rgba(255, 255, 255, 0.45);
+  border-color: teal;
+  
 }
 
 #form {
