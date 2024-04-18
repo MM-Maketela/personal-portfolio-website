@@ -9,26 +9,39 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
   </head>
   <body>
-    <header>
+    <header  id="header">
       <nav>
         <ul class="linkContainer">
           <li class="linkElement">
-            <a>HOME</a>
+            <a href="#hero">HOME</a>
           </li>
           <li class="linkElement">
-            <a>SKILLS</a>
-          </li>
-
-          <li class="linkElement">
-            <a>PORTFOLIO</a>
+            <a href="#skills">SKILLS</a>
           </li>
 
           <li class="linkElement">
-            <a>CONTACT</a>
+            <a href="#Portfolio">PORTFOLIO</a>
+          </li>
+
+          <li class="linkElement">
+            <a href="#contact">CONTACT</a>
           </li>
         </ul>
       </nav>
     </header>
+    <script>
+       window.addEventListener("scroll",function (){
+        let header = document.getElementById("header")
+        console.log(header)
+      console.log(window.scrollY>0)
+        if(window.scrollY > 0){
+          header.style.backgroundColor = 'rgba(0, 128, 128)';
+        }
+        else {
+          header.style.backgroundColor = 'transparent';
+        }
+      })
+    </script>
 
     <main>
       <div id="hero">
@@ -64,36 +77,78 @@
         <div id="skills">
           <div class="subject">
             <h1>SKILLS</h1>
-            <p>Loren ipsun dolor sit anet, consectetur adipisci elit</p>
+            <p>Embrace the opportunity to leverage my versatile skill set, tailored to seamlessly elevate your project to new heights, ensuring unparalleled success and satisfaction.</p>
           </div>
 
           <div class="skillsGrid">
             <div class="skillCard">
-              <h2>Name</h2>
-              <p>text</p>
+              <h2>Frontend Web-Dev</h2>
+              <p >
+                <ol style="text-align: start;">
+                  <li>Design</li>
+                  <li>Agile Implementation</li>
+                </ol>
+              </p>
             </div>
 
             <div class="skillCard">
-              <h2>Name</h2>
-              <p>text</p>
+              <h2>Backend Web-Dev</h2>
+              <p>
+                <ol style="text-align: start;">
+                  <li>planning</li>
+                  <li>Agile Implementation</li>
+
+                </ol>
+              </p>
             </div>
 
             <div class="skillCard">
-              <h2>Name</h2>
-              <p>text</p>
+              <h2>Grade 12 Maths Tutor</h2>
+              <p>
+                <ol style="text-align: start;">
+                  <li>Explain concepts</li>
+                  <li>Test student</li>
+                  <li>Provide feedback</li>
+                  <li>Share Advice</li>
+                  <li>Mentor</li>
+                </ol>
+              </p>
             </div>
 
             <div class="skillCard">
-              <h2>Name</h2>
-              <p>text</p>
+              <h2>Create CV</h2>
+              <p>
+                <ol style="text-align: start;">
+                  <li>Collect Data</li>
+                  <li>Write CV</li>
+                  <li>Write Cover Letter</li>
+                  <li>Format CV as pdf</li>
+                 
+                </ol>
+              </p>
             </div>
             <div class="skillCard">
-              <h2>Name</h2>
-              <p>text</p>
+              <h2>Android App-Dev</h2>
+              <p>
+                <ol style="text-align: start;">
+                  <li>Collect Data</li>
+                  <li>Plan</li>
+                  <li>Design</li>
+                  <li>Agile Implementation</li>
+                </ol>
+              </p>
             </div>
             <div class="skillCard">
-              <h2>Name</h2>
-              <p>text</p>
+              <h2>Problem Solving</h2>
+              <p>
+                <ol style="text-align: start;">
+                  <li>Collect Data</li>
+                  <li>Isolate Problem</li>
+                  <li>Find root Cause</li>
+                  <li>brainstorm Solutions</li>
+                  <li>Implement an Efficient and Reliable Solution</li>
+                </ol>
+              </p>
             </div>
           </div>
         </div>
@@ -101,7 +156,7 @@
         <div id="Portfolio">
           <div class="subject">
             <h1>PORTFOLIO</h1>
-            <p>Loren ipsun dolor sit anet, consectetur adipisci elit</p>
+            <p>Explore a showcase of my finest work, exemplifying expertise, creativity, and dedication.</p>
           </div>
 
           <div class="portfolioGrid">

@@ -1,15 +1,19 @@
 body {
-  color: teal;
+  color: rgba(0, 128, 128);
   position: relative;
   margin: 0px;
 }
 
-nav {
+header {
   position: fixed;
   top: 0px;
   left: 0px;
   width: 100%;
   color: white;
+  z-index: 1;
+}
+html {
+  scroll-behavior: smooth;
 }
 
 ul {
@@ -19,8 +23,15 @@ ul {
   gap: 2rem;
   list-style: none;
 }
+a:active {
+  color: blue;
+}
 a {
-  cursor: pointer;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    transition: color 0.3s ease; /* Optional: Smooth color transition */
 }
 #hero {
   background-image: url("./assets/images/Mafa_image_to_edit-removebg_1.png");
