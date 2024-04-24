@@ -42,7 +42,7 @@ a {
   background-position: center;
   height: 100vh;
 }
-.aboutMafa {
+.name, .aboutMafa {
   padding: 2rem;
   text-align: start;
   top: 10rem;
@@ -51,6 +51,14 @@ a {
   right: 5%;
   font-size: 1.2rem;
   color: rgba(255, 255, 255, 0.6);
+}
+
+
+.name{
+  top:7rem;
+  font-size: 2.5rem;
+  color: rgba(255, 255, 255, 0.9);
+  font-style: italic;
 }
 #typed-text {
 }
